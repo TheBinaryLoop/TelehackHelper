@@ -61,6 +61,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database.cs" />
+    <Compile Include="Entities\AreaCode.cs" />
     <Compile Include="Entities\BBS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
