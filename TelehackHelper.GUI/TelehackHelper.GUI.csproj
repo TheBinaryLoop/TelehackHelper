@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TelehackHelper.Core\TelehackHelper.Core.csproj">
+      <Project>{72270574-7ce7-43e9-8f70-16fa749f0ba0}</Project>
+      <Name>TelehackHelper.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
