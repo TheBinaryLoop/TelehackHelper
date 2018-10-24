@@ -4,4 +4,4 @@ build:
   stage: build
   script:
     - nuget restore
-    - MONO_IOMAP=case xbuild /t:Build /p:Configuration="Release" /p:Platform="Any CPU" TelehackHelper.sln
+    - MONO_IOMAP=case msbuild /t:Build /p:Configuration="Release" /p:Platform="Any CPU" TelehackHelper.sln
