@@ -1,0 +1,7 @@
+image: mono:latest
+
+build:
+  stage: build
+  script:
+    - nuget restore
+    - MONO_IOMAP=case xbuild /t:Build /p:Configuration="Release" /p:Platform="Any CPU" TelehackHelper.sln
