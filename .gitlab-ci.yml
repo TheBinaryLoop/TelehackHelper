@@ -4,6 +4,7 @@ build:
   stage: build
   only:
     - /.*/TelehackHelper.GUI/.*
+    - /.*/TelehackHelper.Core/.*
     - /.*/TelehackHelper.sln
   script:
     - nuget restore
