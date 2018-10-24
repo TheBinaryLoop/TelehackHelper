@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelehackHelper.GUI", "Teleh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelehackHelper.Core", "TelehackHelper.Core\TelehackHelper.Core.csproj", "{72270574-7CE7-43E9-8F70-16FA749F0BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelehackHelper.Console", "TelehackHelper.Console\TelehackHelper.Console.csproj", "{B63972C3-B60B-4561-91C9-F8135A72F9ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{72270574-7CE7-43E9-8F70-16FA749F0BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72270574-7CE7-43E9-8F70-16FA749F0BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72270574-7CE7-43E9-8F70-16FA749F0BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63972C3-B60B-4561-91C9-F8135A72F9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63972C3-B60B-4561-91C9-F8135A72F9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63972C3-B60B-4561-91C9-F8135A72F9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63972C3-B60B-4561-91C9-F8135A72F9ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
