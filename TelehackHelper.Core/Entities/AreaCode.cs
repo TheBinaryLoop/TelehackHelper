@@ -1,18 +1,14 @@
 ﻿using System.Collections.Generic;
-using SQLite;
 
 namespace TelehackHelper.Core.Entities
 {
     public class AreaCode
     {
-        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
-        [NotNull]
         public string State { get; set; }
-        [Unique, NotNull]
         public int Code { get; set; }
 
-        public static List<AreaCode> AreaCodes = new List<AreaCode>()
+        public static List<AreaCode> AreaCodes = new List<AreaCode>
         {
             new AreaCode { State = "Alberta", Code = 403 },
             new AreaCode { State = "Alaska", Code = 907 },
